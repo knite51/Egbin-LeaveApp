@@ -1,0 +1,59 @@
+{
+  "name": "time-off",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@sendgrid/mail": "^6.3.1",
+    "axios": "^0.18.0",
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.18.3",
+    "bootstrap": "^4.3.1",
+    "cors": "^2.8.5",
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "font-awesome": "^4.7.0",
+    "formik": "^1.5.1",
+    "fs": "0.0.1-security",
+    "joi": "^14.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.16.3",
+    "moment": "^2.24.0",
+    "mongoose": "^5.5.1",
+    "mysql": "^2.16.0",
+    "node-cron": "^2.0.3",
+    "pug": "^2.0.3",
+    "react": "^16.8.4",
+    "react-addons-css-transition-group": "^15.6.2",
+    "react-calendar": "^2.18.1",
+    "react-dom": "^16.8.4",
+    "react-infinite-calendar": "^2.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.8",
+    "sweetalert2": "^8.5.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "create-migration": "./node_modules/.bin/knex migrate:make --env development",
+    "migrate:up": "./node_modules/.bin/knex migrate:latest --env development",
+    "migrate:down": "./node_modules/.bin/knex migrate:rollback --env development",
+    "server": "node server/server.js",
+    "heroku-postbuild": "npm install && npm run build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.7.2",
+    "@types/mongoose": "^5.3.26"
+  },
+  "proxy": "http://localhost:6004"
+}

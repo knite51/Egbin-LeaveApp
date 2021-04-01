@@ -1,0 +1,25 @@
+.statistics .sta .card {
+    height: 250px !important;
+}
+.statistics .card-header{
+    font-weight: bold;
+}
+.second, .Cal__Container__root{
+  
+}
+.Cal__Container__root{
+    margin-top: 20px !important;
+}
+.first{
+    margin-right: 4%
+}
+.second, .third{
+    margin-right: 5%
+}
+.col-md-3 .react-calendar {
+    max-height: 340px !important;
+}
+.bgd{
+    border-radius: 0px;
+    padding: 4% 7%;
+}

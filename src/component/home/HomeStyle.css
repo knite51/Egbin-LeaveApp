@@ -1,0 +1,16 @@
+.mt-lead{
+    margin-top: 7%;
+    font-weight: bold
+}
+.jumbotron{
+    background: url('https://st3.depositphotos.com/2673929/16381/i/1600/depositphotos_163817894-stock-photo-man-s-hand-and-a.jpg');
+    height: 400px;
+    width: 100%;
+    font-weight: bold
+}
+.features img{
+    width: 200px;
+}
+.mb-10{
+    margin-bottom: 10%
+}
